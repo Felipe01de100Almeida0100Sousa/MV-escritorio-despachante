@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a072e;
+}
+
+.brand-mv {
+    /* Adiciona a linha branca ao redor */
+    border: 2px solid #ffffff; 
+    
+    /* Espaçamento interno para o conteúdo não colar na borda */
+    padding: 50px; 
+    
+    /* Arredonda levemente os cantos da borda (opcional) */
+    border-radius: 8px; 
+    
+    /* Organização dos elementos na vertical com espaçamento */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+    
+    /* Largura do container */
+    max-width: 320px;
+    margin: 50px auto; /* Centraliza a caixa na tela */
+}
+
+/* Opcional: Estilização para o título MV */
+.brand-mv h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+h1{
+    font-size: 120px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.9;
+    color: #ffffff;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    
+}
